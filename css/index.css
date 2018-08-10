@@ -1,0 +1,265 @@
+.top{
+	height: 28px;
+	background-color:#f6f6f6;
+}
+.top_r a{
+	padding: 0 8px;
+	border-right: 1px solid #999;
+}
+.top_r a:nth-child(5){
+	border: none;
+}
+.top_r i{
+	font-family: "icomoon";
+    font-style: normal;
+    color: #ccc;
+    margin-left: 10px;
+}
+.logo{
+	height: 94px;
+	background-color: #ffffff;
+}
+.logo a{
+	display: inline-block;
+}
+.mobile i{
+	width: 1px;
+    height: 20px;
+    display: inline-block;
+    background: #e8e8e8;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.mobile a:nth-child(2){
+	margin-left: 10px;
+}
+nav{
+	height: 50px;
+	background-color: #f6f6f6;
+	font-size: 18px;
+	line-height: 50px;
+}
+nav a{
+	display: block;
+    float: left;
+    color: #323232;
+    margin-left: 30px;
+    height: 50px;
+}
+nav a:nth-child(4){
+	color: #d9251b;
+	border-bottom: 1px solid #d9251b;
+}
+nav a:last-child{
+	cursor: pointer;
+    margin-left: 90px;
+}
+#internet:after{
+	content:url(../images/hot_03.jpg);	
+}
+.banner{
+	height: 390px;
+	background-color: #000;
+	position: relative;
+	color: #fff;
+	text-align: center;
+}
+.banner h1{
+	position: absolute;
+	top: 80px;
+	left: 284px;
+}
+.banner p{
+	position: absolute;
+	top:145px;
+	left: 239px; 
+}
+/*方案*/
+.scheme{
+	height: 497px;
+
+}
+.scheme h2{
+	height:97px; 
+	margin-top: 36px;
+}
+.scheme div{
+	width: 527px;
+	text-align: center;	
+	padding: 32px;
+}
+.scheme p:last-child{
+	margin-top: 32px;
+}
+.scheme img{
+	margin-left: 32px;
+}
+/*痛点*/
+.pain{
+	height: 497px;
+	background-color: #f5f5f5;
+}
+.pain h2{
+	height:124px; 
+	padding-top: 46px;
+	color: #2d92e8;
+	text-align: center;
+}
+.pain img{
+	display: block;
+	width: 12px;
+	height: 12px;
+}
+.pain .pain_p{
+	/*width: 575px;*/
+}
+.pain p{
+	height: 60px;
+}
+.pain p:before{
+	content: url(../images/pain_point_01.jpg);
+}	
+
+/*优势*/
+.advantage{
+	height: 639px;
+	box-sizing: border-box;
+}
+.advantage h2{
+	height:156px; 
+	padding-top: 46px;
+	text-align: center;
+	color: #2d92e8;
+	box-sizing: border-box;
+}
+}
+.advantage img{
+	display: block;
+	
+}
+.advantage div{
+	position: relative;
+	height: 480px;
+}
+.advantage div ul{
+	position: relative;
+	height: 357px;
+}
+.advantage div ul li{	
+	float: left;
+	width: 300px;
+	text-align: center;
+	margin-right: 52px;
+}
+.advantage div ul li:first-child{
+	margin-left: 60px;
+}
+.advantage image {
+	display: block;
+	height: 176px; 
+}
+.advantage h3{
+	margin-top: 26px;
+}
+.advantage p{
+	margin-top: 21px;
+}
+.arrow-l,.arrow-r {
+    position: absolute;
+    top: 50%;
+    width: 25px;
+    height: 62px;
+    color: #dcdcdc;
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 62px;
+    font-size: 20px;
+    font-family: aial;
+    font-weight: normal;
+}	
+.arrow-r {
+    right: 0;
+}
+.arrow-l{
+	left: 0;
+}
+.advantage ol{
+	width: 81px;
+	height: 17px;
+	position: absolute;
+	left: 50%;
+	transform: translatex(-50%);
+	bottom: 53px;
+}
+.advantage ol li{
+	width: 10px;
+    height: 10px;
+    background-color: #c8c8c8;
+    border-radius: 50%;
+    float: left;
+    margin: 2px 4px 4px 2px;
+    cursor: pointer;
+}
+.advantage ol .current{
+	background: #2d92e8;
+}
+/*价值*/
+.value{
+	height: 497px;
+	background-color: #3f85c1;
+	color: #fff;
+}
+.value h2{
+	height:134px; 
+	padding-top: 57px;
+	text-align: center;
+}
+.value .value_p{
+	/*width: 527px;*/
+}
+.value .value_p  i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: #ffffff;
+	border-radius: 4px;
+	color: #92b3d3;
+	text-align: center;
+	line-height: 20px;
+	margin-right: 14px;
+}
+.value p{
+	height: 60px;
+}
+/*公司业务介绍*/
+.jieshao {
+	background-color: #6c6c6c;
+	height: 240px;
+}
+.jieshao dl {
+    width: 157px;
+    float: left;
+    margin-top: 36px;
+    color: #daf5ff;
+}
+.jieshao dl:first-child{
+	margin-left: 21px;
+}
+.jieshao dl dt{
+	height:38px;
+}
+.contact h5{
+	margin-top: 33px;
+	height: 45px;
+	color: #c6ccba;
+}
+.contact p{
+	color: #daf5ff;
+}
+.copyright{
+	background-color: #525252;
+	text-align: center;
+}	
+.copyright a{
+	margin-right: 40px;	
+}
